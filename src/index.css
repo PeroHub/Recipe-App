@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/* .main {
+    padding: 20px;
+    
+} */
+
+/* Navigation section design */
+
+.main .header-con {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    padding: 20px;
+}
+.nav-con {
+    display: flex;
+    margin: 0 160px;
+    justify-content: space-between;
+    
+}
+
+.nav-con ul {
+    display: flex;
+}
+
+.nav-con ul li:first-child{
+    font-weight: bold;
+}
+
+.nav-con ul li {
+    margin: 0 20px;
+    list-style: none;
+    font-size: 12px;
+    cursor: pointer;
+    transition: color 10s, ease;
+}
+
+.nav-con ul li:hover {
+    color: rgba(0,0,0,0.5);
+}
+
+svg {
+    width: 20%;
+}
+
+
+/* End of Navigation section design */
+
+
+
+
+/* Recipe design section */
+
+/* End of recipe design section */
+
+
+
+
+@media screen and (max-width: 768px) {
+    /* Navigation section design */
+
+    .main {
+        overflow-x: hidden;
+    }
+
+    svg {
+        width: 170px;
+        
+    }
+
+    .nav-con {
+        width: 100%;
+        margin: 0;
+    }
+
+    .nav-con ul {
+        justify-content: center;
+        align-items: center;
+        
+        width: 50%;
+    }
+
+    .nav-con ul li {
+        width: 200px;
+        
+    }
+
+    .image-con {
+        
+        height: 50vh;
+    }
+
+    .image-con img {
+        width: 100%;
+        height: inherit;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+    /* End of navigation section design */
+
+
+    /* Begining of recipe section */
+    .recipe-list {
+        margin-top: 40px;
+        border: 1px solid red;
+    }
+
+    .recipe-list h3 {
+        text-transform: capitalize;
+        text-align: center;
+        color: rgb(95, 93, 93);
+    }
+
+    /* End of recipe section */
+
+}
